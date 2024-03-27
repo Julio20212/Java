@@ -1,0 +1,28 @@
+package lpa;
+
+import java.util.Scanner;
+
+public class Ativstring12 {
+
+	public static void main(String[] args) {
+	Scanner ler = new Scanner (System.in);
+	String turno;
+	
+	System.out.println("Informe que turno você estuda: ");
+	turno = ler.next();
+	
+	if (turno.equals("M") || turno.equals("m")) {
+		System.out.println("Bom dia!");
+	}	
+	else if (turno.equals("V") || turno.equals("v")) {
+		System.out.println("Boa tarde!");
+	}	
+	else if (turno.equals("N") || turno.equals("n")) {
+		System.out.println("Boa noite!");
+	}
+	else {
+		System.out.println("Valor inválido!");
+		
+		}
+	}
+}
